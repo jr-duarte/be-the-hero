@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Lays Bold';
+  src: url('./assets/fonts/Lays-Bold.eot');
+  src: url('./assets/fonts/Lays-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/Lays-Bold.woff2') format('woff2'), url('./assets/fonts/Lays-Bold.woff') format('woff'),
+    url('./assets/fonts/Lays-Bold.ttf') format('truetype'), url('./assets/fonts/Lays-Bold.svg#Lays-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lays';
+  src: url('./assets/fonts/Lays-Medium.eot');
+  src: url('./assets/fonts/Lays-Medium.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/Lays-Medium.woff2') format('woff2'), url('./assets/fonts/Lays-Medium.woff') format('woff'),
+    url('./assets/fonts/Lays-Medium.ttf') format('truetype'),
+    url('./assets/fonts/Lays-Medium.svg#Lays-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');

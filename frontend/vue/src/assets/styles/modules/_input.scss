@@ -1,0 +1,29 @@
+.form-control {
+  border: none;
+  border-bottom: 2px solid $red;
+  background: none;
+  border-radius: 0;
+  font-size: 18px;
+  color: $gray;
+  padding-left: 0;
+
+  @include media-breakpoint-up(lg) {
+    font-size: 22px;
+  }
+
+  &:focus {
+    background: none;
+    border-color: $red;
+    box-shadow: 0px 0px 7px -2px $red;
+  }
+
+  &__toggle-pass {
+    position: absolute;
+    right: 30px;
+    top: 28px;
+
+    @include media-breakpoint-up(lg) {
+      top: 35px;
+    }
+  }
+}

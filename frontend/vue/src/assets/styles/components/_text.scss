@@ -1,0 +1,31 @@
+.text {
+  &--default {
+    @include fontAlpha(18px, 500);
+    line-height: 30px;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 30px;
+      line-height: 45px;
+    }
+  }
+
+  &--modal {
+    @include fontAlpha(16px, 500);
+    line-height: 20px;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 18px;
+      line-height: 30px;
+    }
+  }
+
+  &--sm {
+    @include fontAlpha(14px, 500);
+    line-height: 20px;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 16px;
+      line-height: 23px;
+    }
+  }
+}

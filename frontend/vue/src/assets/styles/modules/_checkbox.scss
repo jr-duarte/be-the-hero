@@ -1,0 +1,45 @@
+.base-checkbox {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: $gray;
+
+  input {
+    display: none;
+
+    &:checked ~ .base-checkbox__fake {
+      &:before {
+        background-color: $red;
+      }
+    }
+  }
+
+  &__fake {
+    display: inline-block;
+    width: 30px;
+    height: 25px;
+    position: relative;
+    z-index: 2;
+    margin-right: 20px;
+    // flex: 1;
+
+    &:before {
+      content: '';
+      position: absolute;
+      display: inline-block;
+      width: 21px;
+      height: 21px;
+      border: 2px solid $red;
+      border-radius: 3px;
+      position: relative;
+      z-index: 1;
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    left: 5px;
+    top: 0;
+    z-index: 9;
+  }
+}

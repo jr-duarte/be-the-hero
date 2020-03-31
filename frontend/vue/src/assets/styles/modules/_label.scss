@@ -1,0 +1,10 @@
+label,
+.label {
+  color: $red;
+  @include fontAlpha(16px, 700);
+  margin-bottom: 10px;
+
+  @include media-breakpoint-up(lg) {
+    @include fontAlpha(18px, 700);
+  }
+}
